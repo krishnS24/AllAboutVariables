@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.parent {
+  border: 1px solid;
+  height: 50%;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+}
+.parent2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+.c1 {
+  border: 1px solid;
+  height: 100%;
+  width: 50%;
+}
+
+.c2,
+.c3 {
+  border: 1px solid;
+  height: 100%;
+  width: 100%;
+  margin-left: 10px;
+}
